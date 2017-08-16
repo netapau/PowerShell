@@ -99,7 +99,7 @@ $VerbosePreference 	= 'continue'		#par defaut silentlycontinue
 $DebugPreference 	= 'continue'
 $WarningPreference 	= 'continue'
 #...
-#Message d'accueuil personnalisé
+#Message d'accueuil personnalisï¿½
 $UserType = 'Utilisateur'
 $CurrentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent()
 $principal = new-object System.security.Principal.windowsprincipal($CurrentUser)
@@ -126,7 +126,7 @@ Parler("Bonjour $UserType . Je suis contente de te revoir.")
 #...
 # Modification de la couleur du prompt en jaune, remplacement
 # du prompt par PS > et affichage du chemin courant dans la barre
-# de titre de la fênetre de la console
+# de titre de la fï¿½netre de la console
 function prompt
 {
 	$heure = get-date -format T
